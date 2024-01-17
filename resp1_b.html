@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<script>
+    // ELABORAR UM PROGRAMA PARA UMA PIZZARIA, O QUAL LEIA O VALOR TOTAL DE UMA CONTA E QUANTOS CLIENTES VÃO PAGÁ-LA. CALCULE E INFORME O VALOR A SER PAGO POR CLIENTE
+    // EXEMPLO:
+    // VALOR DA CONTA R$: 90.00
+    // NÚMERO DE CLIENTES: 3
+    // VALOR POR CLIENTE R$: 30.00
+
+
+  // lê os dados de entrada
+  const conta = Number(prompt("Valor da Conta R$: "))
+  const num = Number(prompt("Número de Clientes: "))
+  // calcula o valor individual por cliente
+  const individual = conta / num
+  // exibe a resposta (com 2 casas decimais no valor)
+  alert(`Valor por Cliente R$: ${individual.toFixed(2)}`)
+</script>

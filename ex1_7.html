@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    // ELABORAR UM PROGRAMA QUE LEIA O VALOR DE UM JANTAR. CALCULE E INFORME O VALOR DA TAXA DO GARÇOM (10%) E O VALOR TOTAL A SER PAGO
+    // VALOR DO JANTAR R$: 80.00
+    // TAXA DO GARÇOM R$: 8.00
+    // TOTAL A PAGAR R$: 88.00
+
+    // CÁLCULO DO VALOR DO JANTAR
+
+    const jantar = Number(prompt("Valor do Jantar R$: ")); // lê o valor do jantar
+    const garcom = jantar * 0.10; // calcula variáveis de saída
+    const total = jantar + garcom;
+    //const total = jantar + (jantar * 0.10); // outra forma de declarar ou então
+    //const total = jantar * 1.10; // desta forma
+    alert(`Taxa Garçom R$: ${garcom.toFixed(2)}\nTotal R$: ${total.toFixed(2)}`);
+    // OBS => USO DO toFixed() PARA DETERMINAR O NÚMERO DE CASAS DECIMAIS DAS RESPOSTAS
+</script>
